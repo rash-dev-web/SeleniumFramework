@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Suite-- Free CRM Test" verbose="1" >
+<listeners>
+      <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+      <listener class-name="com.qa.utility.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM Test Regression">
+    <classes>
+      <class name="com.qa.tests.LoginPageTest"/>
+      <class name="com.qa.tests.HomePageTest"/>
+      <class name="com.qa.tests.ContactPageTest"/>
+    </classes>
+  </test>
+</suite>

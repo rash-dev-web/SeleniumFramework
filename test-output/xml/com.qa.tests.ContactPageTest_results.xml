@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Free CRM Test Regression"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.920">
+  <properties />
+  
+  
+            <testcase name="selectContactTest" time="1.854" classname="com.qa.tests.ContactPageTest" />
+                <testcase name="verifyContactPageLabelTest" time="0.066" classname="com.qa.tests.ContactPageTest" />
+      
+</testsuite>
